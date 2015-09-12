@@ -69,9 +69,9 @@ video#bgvid {
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../img/wg-promo.png) no-repeat;
+    background: url(/img/wg-promo-bg.jpg) no-repeat;
     background-size: cover; 
-    opacity: .7;
+    opacity: .75;
     background-color: black;
 }
 video { 
@@ -185,21 +185,6 @@ video {
     font-size: 18px;
 }
 
-@media(min-width:768px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 26px;
-    }
-}
-
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -294,12 +279,17 @@ video {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/bk-best-lessons.jpg) no-repeat center center scroll;
+    background: url(/img/bk-best-lessons.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#download.col-lg-12 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .press h2 {
@@ -309,6 +299,10 @@ video {
 .press p {
     text-transform: uppercase;
     font-size: 1.2em;
+}
+
+.yelp {
+    padding-top: 50px;
 }
 
 #map {
@@ -388,12 +382,20 @@ body {
     }
 }
 
-@media screen and (max-width: 800px) {
-    html {
-         background: url(../img/wg-promo.png) #000 no-repeat center center fixed;
-    }
+@media(max-width: 766px) {
+/*    html {
+         background: url(/img/wg-promo-mobile.jpg) #000 no-repeat center center fixed;
+    }*/
     video#bgvid {
         display: none;
+    }
+    .mobile-background {
+        background: url(/img/wg-promo-mobile.jpg) no-repeat;
+        height: 450px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
     }
 }
 
@@ -402,6 +404,18 @@ body {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+    }
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
     }
 }
 
@@ -443,10 +457,18 @@ body {
     }
 }
 
+
 /** bootstrap overrides **/ 
 
 .navbar-brand {
     padding: 15px 30px;
+}
+
+@media(max-width: 360px) {
+    .navbar-brand {
+    padding-right: 0;
+    font-size: 1em;
+    }
 }
 
 @media (min-width: 850px) {

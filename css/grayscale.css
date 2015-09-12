@@ -4,14 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.press h2 {
-    text-transform: none;
-}
-
-.press p {
-    text-transform: uppercase;
-    font-size: 1.2em;
-}
 
 body {
     width: 100%;
@@ -45,14 +37,6 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:768px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-}
-
 a {
     color: #FAF79B;
     -webkit-transition: all .2s ease-in-out;
@@ -68,6 +52,10 @@ a:focus {
 
 .light {
     font-weight: 400;
+}
+
+.container {
+    width: 100%;
 }
 
 video#bgvid { 
@@ -86,16 +74,9 @@ video#bgvid {
     opacity: .7;
     background-color: black;
 }
-video { display: block; } /** IE 8 **/
-
-@media screen and (max-width: 800px) {
-    html {
-         background: url(../img/wg-promo.png) #000 no-repeat center center fixed;
-    }
-    video#bgvid {
-        display: none;
-    }
-}
+video { 
+    display: block; 
+    } /** IE 8 **/
 
 .navbar-custom {
     margin-bottom: 0;
@@ -300,13 +281,14 @@ video { display: block; } /** IE 8 **/
     /*padding-bottom: 150px;*/
 }
 
-.content-section {
-    padding-bottom: 150px;
-    background-color: black;
+#contact.content-section {
+    padding-bottom: 100px;
 }
 
-.press-bg {
-width: 100%;}
+.content-section {
+    /*padding-bottom: 150px;*/
+    background-color: black;
+}
 
 .download-section {
     width: 100%;
@@ -320,31 +302,19 @@ width: 100%;}
     -o-background-size: cover;
 }
 
+.press h2 {
+    text-transform: none;
+}
+
+.press p {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
 #map {
     width: 100%;
     height: 200px;
     margin-top: 100px;
-}
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 250px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
-}
-
-@media(max-width:766px) {
-    #map {
-        display: none;
-    }
 }
 
 .btn {
@@ -375,24 +345,6 @@ ul.banner-social-buttons {
     margin-top: 0;
 }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
-}
-
 footer {
     padding: 50px 0;
     background-color: black;
@@ -400,12 +352,6 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-@media(max-width: 766px) {
-    footer {
-        padding-top: 0;
-    }
 }
 
 ::-moz-selection {
@@ -434,10 +380,83 @@ body {
 
 
 
-/** bootstrap overrides **/
-.container {
-    width: 100%;
+/** Media Queries **/
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
 }
 
+@media screen and (max-width: 800px) {
+    html {
+         background: url(../img/wg-promo.png) #000 no-repeat center center fixed;
+    }
+    video#bgvid {
+        display: none;
+    }
+}
 
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
 
+@media(max-width:767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 200px;
+    }
+
+    .download-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 0;
+    }
+}
+
+@media(max-width:766px) {
+    .content-section {
+        padding-top: 150px;
+    }
+    #map {
+        display: none;
+    }
+    footer {
+        padding-top: 0;
+    }
+}
+
+/** bootstrap overrides **/ 
+
+.navbar-brand {
+    padding: 15px 30px;
+}
+
+@media (min-width: 850px) {
+    .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+    }
+}
+
+@media (min-width: 850px) {
+    .col-lg-8 {
+        width: 66.66666667%;
+    }
+}

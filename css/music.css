@@ -32,10 +32,6 @@ p {
   font-size: 17px;
 }
 
-.music-page {
-  display: none;
-}
-
 .music-header {
 	padding-top: 25px;
 }
@@ -61,8 +57,3 @@ p {
 	opacity: .9;
 }
 
-@media only screen and (min-width: 767px) {
-	.music-page {
-      display: block;
-    }
-}

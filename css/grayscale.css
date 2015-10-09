@@ -366,10 +366,13 @@ body {
     font-size: .8em;
 }
 
-/*.music-page {
-    display: none;
-}*/
 /* ========= Media Queries ======== */
+
+@media(max-width: 520px) {
+    .music-page-link {
+      display: none;
+    }
+}
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {

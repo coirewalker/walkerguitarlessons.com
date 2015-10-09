@@ -11,12 +11,7 @@ html {
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -71,6 +66,11 @@ video {
     display: block; 
     } /** IE 8 **/
 
+
+
+
+
+/* ========== Nav ========= */
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -150,6 +150,11 @@ video {
     }
 }
 
+
+
+
+
+/* ====== Main ====== */
 .intro {
     display: table;
     width: 100%;
@@ -197,7 +202,6 @@ video {
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    /*border: 2px solid #FAF79B;*/
     background: rgba(255,255,255,.1);
 }
 
@@ -253,6 +257,11 @@ video {
     }
 }
 
+
+
+
+
+/* ====== About ====== */
 .about-section {
     width: 100%;
 }
@@ -366,14 +375,18 @@ body {
     font-size: .8em;
 }
 
-/* ========= Media Queries ======== */
-
-@media(max-width: 520px) {
-    .music-page-link {
-      display: none;
-    }
+.video-container {
+    display: block;
 }
 
+.video-container-mobile {
+    display: none;
+}
+
+
+
+
+/* ====== Media Queries ====== */
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
@@ -452,8 +465,11 @@ body {
     }
 }
 
-/* ========= bootstrap overrides ========= */ 
 
+
+
+
+/* ===== Bootstrap Overrides ====== */ 
 .navbar-brand {
     padding: 15px 30px;
 }

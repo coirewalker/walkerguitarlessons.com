@@ -1,0 +1,68 @@
+body {
+	position: relative;
+}
+
+a {
+	color: #fff;
+}
+
+h1, h2 {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-weight: 600;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-size: 25px;
+	text-align: center;
+}
+
+p {
+	font-weight: 100;
+  font-size: 17px;
+}
+
+.music-page {
+  display: none;
+}
+
+.music-header {
+	padding-top: 25px;
+}
+
+.music-wrapper {
+  margin: 120px auto;
+  padding: 20px 0;
+  max-width: 500px;
+}
+
+.video-container {
+  margin-bottom: 35px;
+}
+
+.back-arrow {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+}
+
+.back-arrow:hover {
+	cursor: pointer;
+	opacity: .9;
+}
+
+@media only screen and (min-width: 767px) {
+	.music-page {
+      display: block;
+    }
+}

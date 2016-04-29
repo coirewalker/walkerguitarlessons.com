@@ -177,10 +177,12 @@ video {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    text-shadow: 1px 1px 10px rgba(0,0,0,1);
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    text-shadow: 1px 1px 10px rgba(0,0,0,1);
 }
 
 .btn-circle {

@@ -66,8 +66,9 @@ video {
     display: block; 
     } /** IE 8 **/
 
-
-
+.hero {
+	padding-top: 80px;
+}
 
 
 /* ========== Nav ========= */
@@ -182,7 +183,7 @@ video {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    text-shadow: 1px 1px 10px rgba(0,0,0,1);
+    text-shadow: 2px 2px 8px rgba(0,0,0,1);
 }
 
 .btn-circle {
@@ -421,6 +422,7 @@ body {
     .mobile-background {
 	    background: url(/img/wg-promo-mobile.jpg) no-repeat;
 	    height: 100vh;
+	    background-position: center center;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    background-size: cover;
@@ -498,6 +500,10 @@ body {
 /* ===== Bootstrap Overrides ====== */ 
 .navbar-brand {
     padding: 15px 30px;
+}
+
+.navbar-toggle {
+	margin-top: 4px;
 }
 
 @media(max-width: 360px) {

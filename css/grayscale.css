@@ -339,6 +339,24 @@ ul.banner-social-buttons {
 
 
 
+/* ====== GALLERY ====== */
+.gallery-bg {
+	padding-top: 0;
+	background-color: #000;
+}
+
+.gallery-bg img {
+	width: 94px;
+	height: auto;
+}
+
+.gallery-bg h2 {
+	text-align: center;
+}
+
+
+
+
 /* ====== CONTACT ====== */
 #map {
     width: 100%;

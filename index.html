@@ -8,6 +8,10 @@
         <meta name="author" content="">
         <title>Coire Walker // Guitarist, Teacher</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+		<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
         <link href="css/grayscale.css" rel="stylesheet">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -60,6 +64,9 @@
                         </li>
                         <li>
                             <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                        	<a class="page-scroll" href="#gallery">Gallery</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#download">Press</a>
@@ -123,6 +130,85 @@
             </div>
         </section>
 
+        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+		<div id="blueimp-gallery" class="blueimp-gallery gallery-bg" data-use-bootstrap-modal="false">
+		    <!-- The container for the modal slides -->
+		    <div class="slides"></div>
+		    <!-- Controls for the borderless lightbox -->
+		    <h3 class="title"></h3>
+		    <a class="prev">‹</a>
+		    <a class="next">›</a>
+		    <a class="close">×</a>
+		    <a class="play-pause"></a>
+		    <ol class="indicator"></ol>
+		    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+		    <div class="modal fade">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <button type="button" class="close" aria-hidden="true">&times;</button>
+		                    <h4 class="modal-title"></h4>
+		                </div>
+		                <div class="modal-body next"></div>
+		                <div class="modal-footer">
+		                    <button type="button" class="btn btn-default pull-left prev">
+		                        <i class="glyphicon glyphicon-chevron-left"></i>
+		                        Previous
+		                    </button>
+		                    <button type="button" class="btn btn-primary next">
+		                        Next
+		                        <i class="glyphicon glyphicon-chevron-right"></i>
+		                    </button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<section id="gallery" class=" content-section col-lg-12">
+			<div class="gallery-bg">
+				<h2>Gallery</h2>
+
+			   	<a href="/img/gallery/me-charlie.jpg" title="charlie" data-gallery>
+			        <img src="/img/gallery/me-charlie-thumb.jpg" alt="charlie">
+			    </a>
+			   	<a href="/img/gallery/boat.jpg" title="boat" data-gallery>
+			        <img src="/img/gallery/boat-thumb.jpg" alt="boat">
+			    </a>
+			   	<a href="/img/gallery/pancakes.jpg" title="pancakes!" data-gallery>
+			        <img src="/img/gallery/pancakes-thumb.jpg" alt="pancakes!">
+			    </a>
+			    <a href="/img/gallery/me-charlie.jpg" title="charlie" data-gallery>
+			        <img src="/img/gallery/me-charlie-thumb.jpg" alt="charlie">
+			    </a>
+			   	<a href="/img/gallery/boat.jpg" title="boat" data-gallery>
+			        <img src="/img/gallery/boat-thumb.jpg" alt="boat">
+			    </a>
+			   	<a href="/img/gallery/pancakes.jpg" title="pancakes!" data-gallery>
+			        <img src="/img/gallery/pancakes-thumb.jpg" alt="pancakes!">
+			    </a>
+			    <a href="/img/gallery/me-charlie.jpg" title="charlie" data-gallery>
+			        <img src="/img/gallery/me-charlie-thumb.jpg" alt="charlie">
+			    </a>
+			   	<a href="/img/gallery/boat.jpg" title="boat" data-gallery>
+			        <img src="/img/gallery/boat-thumb.jpg" alt="boat">
+			    </a>
+			   	<a href="/img/gallery/pancakes.jpg" title="pancakes!" data-gallery>
+			        <img src="/img/gallery/pancakes-thumb.jpg" alt="pancakes!">
+			    </a>
+			    <a href="/img/gallery/me-charlie.jpg" title="charlie" data-gallery>
+			        <img src="/img/gallery/me-charlie-thumb.jpg" alt="charlie">
+			    </a>
+			   	<a href="/img/gallery/boat.jpg" title="boat" data-gallery>
+			        <img src="/img/gallery/boat-thumb.jpg" alt="boat">
+			    </a>
+			   	<a href="/img/gallery/pancakes.jpg" title="pancakes!" data-gallery>
+			        <img src="/img/gallery/pancakes-thumb.jpg" alt="pancakes!">
+			    </a>
+		   	</div>
+		</section>
+		<!-- END GALLERY -->
+
+
         <!-- Download Section -->
         <section id="download" class="content-section text-center col-lg-12">
             <div class="download-section">
@@ -182,12 +268,12 @@
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
-        <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
-        <!-- Plugin JavaScript -->
-        <script src="js/jquery.easing.min.js"></script>      
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+		<script src="js/bootstrap-image-gallery.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>  
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-        <!-- Custom Theme JavaScript -->
         <script src="js/grayscale.js"></script>
     </body>
 </html>

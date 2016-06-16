@@ -353,12 +353,6 @@ ul.banner-social-buttons {
 .gallery-bg {
 	padding-top: 0;
 	background-color: #000;
-	text-align: center;
-}
-
-.gallery-bg img {
-	width: 94px;
-	height: auto;
 }
 
 .gallery-bg h2 {

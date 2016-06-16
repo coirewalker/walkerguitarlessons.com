@@ -1,3 +1,8 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -6,21 +11,24 @@ body {
     background-color: #000;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-}
+body, section, footer, .gallery-bg {
+	background-image: url("../img/broken-noise.png");
+} 
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 35px;
+    margin: 0 0 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
+h5 {
+	text-transform: none;
+}
+
 p {
-    margin: 0 0 35px;
+    margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -126,7 +134,9 @@ video {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    /*background-color: rgba(255,255,255,.3);*/
+    background-color: transparent;
+
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -318,23 +328,36 @@ video {
 }
 
 .btn-default {
-    border: 1px solid #FAF79B;
+    border: none;
     color: #FAF79B;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #F4EF50;
+    border: none;
     outline: 0;
-    color: #000;
-    background-color: #F4EF50;
+    color: #FFF310;
+    background-color: transparent;
 }
 
 ul.banner-social-buttons {
     margin-top: 0;
 }
 
+
+
+
+
+/* ====== GALLERY ====== */
+.gallery-bg {
+	padding-top: 0;
+	background-color: #000;
+}
+
+.gallery-bg h2 {
+	text-align: center;
+}
 
 
 
@@ -350,7 +373,9 @@ ul.banner-social-buttons {
 	padding-top: 80px;
 }
 
-
+.social-icon {
+	padding: 0 5px;
+}
 
 
 
@@ -409,12 +434,6 @@ body {
 
 
 /* ====== Media Queries ====== */
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
 @media(max-width: 768px) {
     video#bgvid {
         display: none;
@@ -452,7 +471,6 @@ body {
 
 @media(max-width:767px) {
     ul.banner-social-buttons li {
-        display: block;
         margin-bottom: 20px;
         padding: 0;
     }

@@ -23,6 +23,17 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+	$('.top-block-trigger').click(function() {
+		$('.top-block-toggle').fadeToggle(500);
+	});
+	$('.bottom-block-trigger').click(function() {
+		$('.bottom-block-toggle').fadeToggle(500);
+	});
+
+
+
+
 // Google Maps Scripts
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);

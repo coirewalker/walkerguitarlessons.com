@@ -287,7 +287,7 @@ video {
     background-color: black;
 }
 
-.download-section {
+.press-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -299,7 +299,7 @@ video {
     -o-background-size: cover;
 }
 
-#download.col-lg-12 {
+#press.col-lg-12 {
     padding-left: 0;
     padding-right: 0;
 }
@@ -359,6 +359,7 @@ ul.banner-social-buttons {
 .gallery-bg h2 {
 	text-align: center;
 }
+
 
 
 
@@ -488,7 +489,7 @@ body {
         padding-top: 80px;
     }
 
-    .download-section {
+    .press-section {
         padding: 100px 0;
     }
 

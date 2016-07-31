@@ -211,6 +211,12 @@ video {
     transition: background .3s ease-in-out;
 }
 
+@media(min-width:768px) {
+	.btn, .btn-circle {
+		display: none;
+	}
+}
+
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;

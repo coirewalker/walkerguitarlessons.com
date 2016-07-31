@@ -193,7 +193,7 @@ video {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    text-shadow: 2px 2px 8px rgba(0,0,0,1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
 }
 
 .btn-circle {
@@ -439,12 +439,12 @@ body {
 
 
 /* ====== Media Queries ====== */
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
     video#bgvid {
         display: none;
     }
     .mobile-background {
-	    background: url(/img/wg-promo-mobile.jpg) no-repeat;
+	    background: url(/img/wg-bg-mobile-1.jpg) no-repeat;
 	    height: 100vh;
 	    background-position: center center;
 	    -webkit-background-size: cover;

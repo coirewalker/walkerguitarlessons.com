@@ -195,7 +195,7 @@ video {
 		    linear-gradient(rgba(237, 242, 172, 0.25), 
 		    rgba(224, 0, 0, 0.35)),  
 		    /* bottom image bg */
-		    url(/img/vintage-rock.jpg) no-repeat;
+		    url(/img/vintage-rock-landscape.jpg) no-repeat;
 	height: 100vh;
 	background-position: top right;
     -webkit-background-size: cover;

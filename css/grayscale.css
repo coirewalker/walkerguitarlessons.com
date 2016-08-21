@@ -46,6 +46,16 @@ a:focus {
     color: #F4EF50;
 }
 
+ul.banner-social-buttons a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	color: #f32b5c;
+}
+ul.banner-social-buttons a:hover {
+	color: #fff;
+}
+
 .light {
     font-weight: 400;
 }
@@ -65,7 +75,12 @@ video#bgvid {
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(/img/wg-promo-bg.jpg) no-repeat;
+	    background: 
+        /* top, transparent red, faked with gradient */ 
+	    linear-gradient(rgba(237, 242, 172, 0.25), 
+	    rgba(224, 0, 0, 0.35)),  
+	    /* bottom image bg */
+	    url(/img/vintage-rock.jpg) no-repeat;
     background-size: cover; 
     opacity: .75;
     background-color: black;
@@ -173,8 +188,16 @@ video {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/wg-promo-bg.mp4) no-repeat bottom center scroll;
-    background: none;
+/*    background: url(../img/wg-promo-bg.mp4) no-repeat bottom center scroll;
+    background: none;*/
+   		    background: 
+	        /* top, transparent red, faked with gradient */ 
+		    linear-gradient(rgba(237, 242, 172, 0.25), 
+		    rgba(224, 0, 0, 0.35)),  
+		    /* bottom image bg */
+		    url(/img/vintage-rock.jpg) no-repeat;
+	height: 100vh;
+	background-position: top right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -450,7 +473,12 @@ body {
         display: none;
     }
     .mobile-background {
-	    background: url(/img/wg-bg-mobile-1.jpg) no-repeat;
+	    background: 
+	        /* top, transparent red, faked with gradient */ 
+		    linear-gradient(rgba(237, 242, 172, 0.25), 
+		    rgba(224, 0, 0, 0.35)),  
+		    /* bottom image bg */
+		    url(/img/vintage-rock.jpg) no-repeat;
 	    height: 100vh;
 	    background-position: center center;
 	    -webkit-background-size: cover;

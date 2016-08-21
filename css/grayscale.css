@@ -46,16 +46,6 @@ a:focus {
     color: #F4EF50;
 }
 
-ul.banner-social-buttons a {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-	color: #f32b5c;
-}
-ul.banner-social-buttons a:hover {
-	color: #fff;
-}
-
 .light {
     font-weight: 400;
 }
@@ -374,6 +364,15 @@ ul.banner-social-buttons {
     margin-top: 0;
 }
 
+ul.banner-social-buttons a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	color: #f32b5c;
+}
+ul.banner-social-buttons a:hover {
+	color: #fff;
+}
 
 
 
@@ -426,12 +425,12 @@ footer p {
 footer .emblem {
 	background: url(/img/emblem.jpg) no-repeat center;
 	background-size: contain;
-	height: 40px;
-	width: 40px;
+	height: 55px;
+	width: 55px;
 	margin: 0 auto;
 	display: block;
 	border-radius: 50%;
-	border: solid 2px #FAF79B;
+	border: solid 2px #f32b5c;
 }
 
 

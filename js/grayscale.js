@@ -23,13 +23,12 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-
-	$('.top-block-trigger').click(function() {
-		$('.top-block-toggle').fadeToggle(500);
-	});
-	$('.bottom-block-trigger').click(function() {
-		$('.bottom-block-toggle').fadeToggle(500);
-	});
+$('.top-block-trigger').click(function() {
+	$('.top-block-toggle').fadeToggle(500);
+});
+$('.bottom-block-trigger').click(function() {
+	$('.bottom-block-toggle').fadeToggle(500);
+});
 
 
 
@@ -46,7 +45,7 @@ function init() {
         zoom: 14,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.673217, -73.967461), // New York
+        center: new google.maps.LatLng(48.118146, -123.430741), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,

@@ -139,7 +139,6 @@ video {
 }
 
 .navbar-custom .nav li.active a {
-    /*background-color: rgba(255,255,255,.3);*/
     background-color: transparent;
 
 }
@@ -178,14 +177,12 @@ video {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-/*    background: url(../img/wg-promo-bg.mp4) no-repeat bottom center scroll;
-    background: none;*/
-   		    background: 
-	        /* top, transparent red, faked with gradient */ 
-		    linear-gradient(rgba(237, 242, 172, 0.25), 
-		    rgba(224, 0, 0, 0.35)),  
-		    /* bottom image bg */
-		    url(/img/vintage-rock-landscape.jpg) no-repeat;
+	background: 
+	    /* top, transparent yellow, faked with gradient */ 
+	    linear-gradient(rgba(237, 242, 172, 0.25), 
+	    rgba(254, 240, 12, 0.2)),  
+	    /* bottom image bg */
+	    url(/img/vintage-rock-landscape.jpg) no-repeat;
 	height: 100vh;
 	background-position: top right;
     -webkit-background-size: cover;
@@ -193,6 +190,13 @@ video {
     background-size: cover;
     -o-background-size: cover;
 }
+
+
+
+
+
+
+
 
 .intro .intro-body {
     display: table-cell;
@@ -299,7 +303,7 @@ video {
 }
 
 #contact.content-section {
-    padding-bottom: 70px;
+    padding-bottom: 25px;
 }
 
 .content-section {
@@ -368,7 +372,7 @@ ul.banner-social-buttons a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #f32b5c;
+	color: #feff5c;
 }
 ul.banner-social-buttons a:hover {
 	color: #fff;
@@ -422,17 +426,6 @@ footer p {
     margin-top: 10px;
 }
 
-/*footer .emblem {
-	background: url(/img/emblem.jpg) no-repeat center;
-	background-size: contain;
-	height: 55px;
-	width: 55px;
-	margin: 0 auto;
-	display: block;
-	border-radius: 50%;
-	border: solid 2px #f32b5c;
-}*/
-
 
 
 /* ====== MISC ====== */
@@ -482,9 +475,9 @@ body {
     }
     .mobile-background {
 	    background: 
-	        /* top, transparent red, faked with gradient */ 
+	        /* top, transparent yellow, faked with gradient */ 
 		    linear-gradient(rgba(237, 242, 172, 0.25), 
-		    rgba(224, 0, 0, 0.35)),  
+		    rgba(254, 240, 12, 0.2)),  
 		    /* bottom image bg */
 		    url(/img/vintage-rock.jpg) no-repeat;
 	    height: 100vh;

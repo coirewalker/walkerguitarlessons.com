@@ -54,31 +54,6 @@ a:focus {
     width: 100%;
 }
 
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-	    background: 
-        /* top, transparent red, faked with gradient */ 
-	    linear-gradient(rgba(237, 242, 172, 0.25), 
-	    rgba(224, 0, 0, 0.35)),  
-	    /* bottom image bg */
-	    url(/img/vintage-rock.jpg) no-repeat;
-    background-size: cover; 
-    opacity: .75;
-    background-color: black;
-}
-video { 
-    display: block; 
-    } /** IE 8 **/
-
 .hero {
 	padding-top: 80px;
 }
@@ -178,9 +153,9 @@ video {
     text-align: center;
     color: #fff;
 	background: 
-	    /* top, transparent yellow, faked with gradient */ 
+	    /* top, transparent, faked with gradient */ 
 	    linear-gradient(rgba(237, 242, 172, 0.25), 
-	    rgba(254, 240, 12, 0.2)),  
+	    rgba(1, 255, 203, 0.2)),  
 	    /* bottom image bg */
 	    url(/img/vintage-rock-landscape.jpg) no-repeat;
 	height: 100vh;
@@ -488,7 +463,7 @@ body {
     }
     .mobile-background {
 	    background: 
-	        /* top, transparent yellow, faked with gradient */ 
+	        /* top, transparent, faked with gradient */ 
 		    linear-gradient(rgba(237, 242, 172, 0.25), 
 		    rgba(1, 255, 203, 0.2)), 
 		    /* bottom image bg */ url(/img/vintage-rock.jpg) no-repeat;

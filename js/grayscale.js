@@ -45,7 +45,7 @@ function init() {
         zoom: 14,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(32.827369, -117.205424), 
+        center: new google.maps.LatLng(32.839514, -117.271825), 
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -69,7 +69,7 @@ function init() {
         url: 'img/map-pin-green.png',
         scaledSize : new google.maps.Size(25, 47)
     };
-    var myLatLng = new google.maps.LatLng(32.827369, -117.205424);
+    var myLatLng = new google.maps.LatLng(32.839514, -117.271825);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,

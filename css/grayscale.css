@@ -35,7 +35,7 @@ p {
 }
 
 a {
-    color: #a94442;
+    color: #c59998;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -46,7 +46,7 @@ a:hover,
 a:focus {
     text-decoration: none;
     opacity: .6;
-    color: #a94442;
+    color: #c59998;
 }
 
 .light {
@@ -309,6 +309,15 @@ a:focus {
 
 .press h2 {
     text-transform: none;
+    text-shadow: 4px 4px 41px #000;
+}
+
+.press h3 { 
+	text-shadow: 4px 4px 41px #000;
+}
+
+.press h3 a {
+	text-shadow: none;
 }
 
 .press p {
@@ -352,10 +361,10 @@ ul.banner-social-buttons a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #a94442;
+	color: #c59998;
 }
 ul.banner-social-buttons a:hover {
-	color: #a94442;
+	color: #c59998;
 	opacity: .6;
 }
 

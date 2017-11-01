@@ -18,7 +18,7 @@ $(function() {
     });
 });
 
-// Closes the Responsive Menu on Menu Item Click
+// Closes the Responsive Menu on Menu Item Click.  Currently diabled via hiding the fav bars icon on mobile...
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
@@ -30,7 +30,18 @@ $('.bottom-block-trigger').click(function() {
 	$('.bottom-block-toggle').fadeToggle(500);
 });
 
+// Hides the menu after page scroll down
+$(window).scroll(function() {
 
+    if ($(this).scrollTop()>0)
+     {
+        $('.navbar').fadeOut();
+     }
+    else
+     {
+      $('.navbar').fadeIn();
+     }
+ });
 
 
 // Google Maps Scripts

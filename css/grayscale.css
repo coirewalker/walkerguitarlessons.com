@@ -266,26 +266,24 @@ a:focus {
 }
 
 
-
-
-
-/* ====== About ====== */
-.about-section {
-    width: 100%;
-}
-
 #contact.content-section {
-    padding-bottom: 25px;
+	padding: 50px 0;
 }
 
 .content-section {
     background-color: #fff;
+    padding-top: 50px;
+}
+
+.music-section {
+	padding-bottom: 50px;
 }
 
 .press-section {
+	padding: 50px 0;
 	color: #5a4848;
     width: 100%;
-    padding: 50px 0;
+    background-color: #fff;
     border-top: 1px solid rgba(204, 204, 204, 1);
     border-bottom: 1px solid rgba(204, 204, 204, 1);
     background: url(/img/press-bg.jpg) no-repeat center center scroll;
@@ -545,10 +543,6 @@ body {
 }
 
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 80px;
-    }
-
     .press-section {
         padding: 60px 0;
     }

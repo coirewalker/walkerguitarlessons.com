@@ -7,9 +7,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #5a4848;
     background-color: #000;
-    opacity: .95;
 }
 
 /*body, section, footer, .gallery-bg {
@@ -158,13 +156,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-	background: 
-	    /* top, transparent, faked with gradient */ 
-	    linear-gradient(rgba(237, 242, 172, 0.25), 
-	    rgba(1, 255, 203, 0.2)),  
-	    /* bottom image bg */
-	    url(/img/bg-desktop-landscape.jpg) no-repeat;
-	    opacity: .8;
+	background: url(/img/bg-desktop-landscape.jpg) no-repeat;
 	height: 100vh;
 	background-position: top right;
     -webkit-background-size: cover;
@@ -174,11 +166,8 @@ a:focus {
 }
 
 
-
-
-
-
-
+/*  linear-gradient(rgba(237, 242, 172, 0.25), 
+	    rgba(1, 255, 203, 0.2)) */
 
 .intro .intro-body {
     display: table-cell;
@@ -283,7 +272,6 @@ a:focus {
 /* ====== About ====== */
 .about-section {
     width: 100%;
-    border-bottom: 1px solid rgba(204, 204, 204, .5);
 }
 
 #contact.content-section {
@@ -300,8 +288,9 @@ a:focus {
     padding: 50px 0;
     border-top: 1px solid rgba(204, 204, 204, 1);
     border-bottom: 1px solid rgba(204, 204, 204, 1);
-    background: url(/img/bk-best-lessons.jpg) no-repeat center center scroll;
+    background: url(/img/press-bg.jpg) no-repeat center center scroll;
     background-color: #000;
+    opacity: .9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -313,22 +302,42 @@ a:focus {
     padding-right: 0;
 }
 
-.press h2 {
-    text-transform: none;
-    color: #000;
-}
-
 .press h3 {
-	color: #000;
+	text-align: right;
+	color: #fff;
 }
 
-.press h5, .press a {
+.press h2 {
+	color: #fff;
+    padding-bottom: 30px;
+
+}
+
+.press a {
 	color: #ccc;
+	text-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+
+.press h5 {
+	text-align: right;
+	color: #ccc;
+	text-shadow: 1px 1px 10px rgba(0,0,0,1);
+}
+
+.press h5:hover {
+	opacity: .6;
+}
+
+.press h3 span {
+	font-style: italic;
+	text-transform: none;
 }
 
 .press p {
     text-transform: uppercase;
     font-size: 1.2em;
+   	text-align: right;
+	color: #fff;
 }
 
 .yelp {
@@ -378,6 +387,10 @@ ul.banner-social-buttons a:hover {
 
 
 /* ====== GALLERY ====== */
+#gallery {
+	padding-bottom: 80px;
+}
+
 .gallery-bg {
 	padding-top: 0;
 	text-align: center;
@@ -387,11 +400,18 @@ ul.banner-social-buttons a:hover {
 	text-align: center;
 }
 
+.gallery-bg img {
+	margin-bottom: 3px;
+}
 
 
 
 
 /* ====== CONTACT ====== */
+#contact {
+    border-top: 1px solid rgba(204, 204, 204, .5);
+}
+
 .logo-box {
 	padding: 20px 0;
 }
@@ -484,11 +504,7 @@ body {
         display: none;
     }
     .mobile-background {
-	    background: 
-	        /* top, transparent, faked with gradient */ 
-		    linear-gradient(rgba(237, 242, 172, 0.25), 
-		    rgba(1, 255, 203, 0.2)), 
-		    /* bottom image bg */ url(/img/bg-mobile-portrait.jpg) no-repeat;
+	    background: url(/img/bg-mobile-portrait.jpg) no-repeat;
 	    height: 100vh;
 	    background-position: center center;
 	    -webkit-background-size: cover;
@@ -534,7 +550,7 @@ body {
     }
 
     .press-section {
-        padding: 100px 0;
+        padding: 60px 0;
     }
 
     #map {

@@ -284,10 +284,9 @@ a:focus {
 
 
 /* ======== About ======== */
-.about-section p {
-	margin: 0;
+.last-para {
+	margin-bottom: 0;
 }
-
 
 
 

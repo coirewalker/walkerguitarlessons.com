@@ -632,3 +632,75 @@ body {
 	background: #fff;
 }
 
+
+
+.header-italic {
+	font-family: cursive;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+
+
+
+/* HR Styling */
+.divider-1 {
+	position: relative;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	height: 1px;
+}
+
+.divider-2 {
+	position: relative;
+	margin-top: 0;
+	padding-bottom: 50px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
+}
+
+
+
+
+.no-margin-btm {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

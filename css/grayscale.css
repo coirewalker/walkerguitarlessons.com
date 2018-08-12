@@ -276,6 +276,10 @@ a:focus {
 	padding-right: 15px;
 }
 
+.contact-section span {
+	font-weight: bold;
+}
+
 .phone {
 	padding-bottom: 20px;
 }

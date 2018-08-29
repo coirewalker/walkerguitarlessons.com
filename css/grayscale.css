@@ -37,7 +37,7 @@ p {
 }
 
 a {
-    color: #c73131;
+    color: #8b3223;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -460,7 +460,7 @@ a:focus {
 
 /* ====== FOOTER ====== */
 footer {
-	background: #660212;
+	background: #8b3223;
 }
 
 footer p {

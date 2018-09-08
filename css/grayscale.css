@@ -458,6 +458,16 @@ a:focus {
 
 
 
+/* ====== PRESS ====== */
+.yelp, .thumbtack {
+	float: right;
+}
+
+
+
+
+
+
 /* ====== FOOTER ====== */
 footer {
 	background: #8b3223;

@@ -266,6 +266,24 @@ a:focus {
 }
 
 
+
+
+
+/* ======== About ======== */
+.about-section span {
+	font-weight: bold;
+}
+
+.last-para {
+	margin-bottom: 0;
+}
+
+
+
+
+
+/* ======= CONTACT ======= */
+
 .content-section {
     background-color: #fff;
     padding-top: 50px;
@@ -287,17 +305,12 @@ a:focus {
 
 
 
-/* ======== About ======== */
-.last-para {
-	margin-bottom: 0;
-}
-
-
 
 /* ======== Music ========*/
 .music-section {
 	padding-bottom: 50px;
 }
+
 
 
 

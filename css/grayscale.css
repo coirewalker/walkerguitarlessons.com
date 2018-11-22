@@ -484,6 +484,8 @@ a:focus {
 /* ====== FOOTER ====== */
 footer {
 	background: #720202;
+	padding-top: 15px;
+	padding-bottom: 25px;
 }
 
 footer p {
@@ -509,10 +511,6 @@ ul.banner-social-buttons a {
 ul.banner-social-buttons a:hover {
 	color: #fff;
 	opacity: .6;
-}
-
-.copyright {
-	padding-top: 60px;
 }
 
 .copyright p {
@@ -616,9 +614,6 @@ body {
     .navbar-nav>li>a {
     	text-align: center;
     }
-    footer {
-        padding-top: 0;
-    }
 }
 
 
@@ -711,19 +706,17 @@ body {
 	border-right: 1px solid rgb(48,49,51);
 }
 
-
-
-
 .no-margin-btm {
 	margin-bottom: 0;
 }
 
+.btm-pad {
+	padding-bottom: 20px;
+}
 
-
-
-
-
-
+.copy-pad {
+	padding-top: 20px;
+}
 
 
 

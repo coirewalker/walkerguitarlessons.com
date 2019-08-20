@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 100px;
 }
 
+h3 {
+	font-size: 21px;
+}
+
 h5 {
 	text-transform: none;
 }
@@ -37,7 +41,7 @@ p {
 }
 
 a {
-    color: #c30606;
+    color: #fb6c19;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -47,8 +51,8 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    opacity: .6;
-    color: #c73131;
+    opacity: .8;
+    color: #fb6c19
 }
 
 .light {
@@ -92,7 +96,8 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
 }
 
 .navbar-custom .nav li a {
@@ -176,13 +181,13 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-    text-shadow: 1px 1px 10px rgba(0,0,0,1);
+    text-shadow: 1px 1px 2px rgba(0,0,0,1);
     padding-bottom: 20px;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    text-shadow: 2px 1px 3px rgba(0,0,0,1);
+    text-shadow: 2px 1px 1px rgba(0,0,0,.7);
 }
 
 .btn-circle {
@@ -343,20 +348,15 @@ a:focus {
 }
 
 .press h2 {
-	color: #fff;
-    padding-bottom: 30px;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
 
-}
-
-.press a {
-	color: #ccc;
-	text-shadow: 1px 1px 10px rgba(0,0,0,.5);
 }
 
 .press h5 {
 	text-align: right;
-	color: #ccc;
-	text-shadow: 1px 1px 10px rgba(0,0,0,1);
+    color: #000;
+    font-size: .65em;
 }
 
 .press h5:hover {
@@ -364,10 +364,12 @@ a:focus {
 }
 
 .press h3 span {
-	font-size: 1.4em;
+	color: #000;
+	font-size: .9em;
 	font-style: italic;
 	font-family: 'Berkshire Swash', cursive;
 	text-transform: none;
+	text-shadow: 1px 1px 0px #fff;
 }
 
 .press h5 {
@@ -483,8 +485,8 @@ a:focus {
 
 /* ====== FOOTER ====== */
 footer {
-	background: #720202;
-	padding-top: 15px;
+	background: #c95511;
+	padding-top: 25px;
 	padding-bottom: 25px;
 }
 

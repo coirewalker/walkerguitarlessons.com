@@ -283,7 +283,9 @@ a:focus {
 	margin-bottom: 0;
 }
 
-
+#zoom {
+	padding-bottom: 20px;
+}
 
 
 
@@ -673,7 +675,7 @@ body {
 .divider-1 {
 	position: relative;
 	margin-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 	height: 1px;
 }
 

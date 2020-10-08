@@ -279,10 +279,6 @@ a:focus {
 	font-weight: bold;
 }
 
-.last-para {
-	margin-bottom: 0;
-}
-
 #zoom {
 	padding-bottom: 20px;
 }
@@ -318,6 +314,22 @@ a:focus {
 }
 
 
+
+
+
+/* ======= Testimonials ======= */
+.quote {
+	font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.quote-spacer {
+	padding-bottom: 25px;
+}
 
 
 
@@ -423,7 +435,7 @@ a:focus {
 
 
 /* ====== GALLERY ====== */
-#gallery {
+/*#gallery {
 	padding-bottom: 80px;
 }
 
@@ -439,7 +451,7 @@ a:focus {
 .gallery-bg img {
 	margin-bottom: 3px;
 }
-
+*/
 
 
 

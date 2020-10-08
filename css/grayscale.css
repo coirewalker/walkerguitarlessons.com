@@ -323,13 +323,12 @@ a:focus {
 	font-style: italic;
     text-align: center;
     font-size: 14px;
-    padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .quote-spacer {
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 }
 
 

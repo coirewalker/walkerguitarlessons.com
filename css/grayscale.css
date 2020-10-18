@@ -492,11 +492,17 @@ a:focus {
 }
 
 .google-badge img {
-	width: 165px;
+	width: 150px;
 }
 
+.thumbtack-badge img {
+	width: 65px;
+}
 
-
+.yelp-badge img {
+	width: 110px;
+	margin-right: 15px;
+}
 
 
 /* ====== FOOTER ====== */

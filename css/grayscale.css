@@ -492,16 +492,16 @@ a:focus {
 }
 
 .google-badge img {
-	width: 150px;
+	width: 170px;
 }
 
 .thumbtack-badge img {
-	width: 65px;
+	width: 75px;
 }
 
 .yelp-badge img {
-	width: 110px;
-	margin-right: 15px;
+	width: 120px;
+	margin-right: 10px;
 }
 
 
@@ -541,6 +541,8 @@ ul.banner-social-buttons a:hover {
     font-size: .5em;
     margin-bottom: 20px;
 }
+
+
 
 
 
@@ -745,6 +747,14 @@ body {
 
 
 
+
+
+
+/** REVIEW PAGE **/
+.review-body {
+	display: table-cell;
+    vertical-align: middle;
+}
 
 
 

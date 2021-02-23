@@ -19,9 +19,9 @@
 // });
 
 // Closes the Responsive Menu on Menu Item Click.  Currently diabled via hiding the fav bars icon on mobile...
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+// $('.navbar-collapse ul li a').click(function() {
+//     $('.navbar-toggle:visible').click();
+// });
 
 $('.top-block-trigger').click(function() {
 	$('.top-block-toggle').fadeToggle(500);

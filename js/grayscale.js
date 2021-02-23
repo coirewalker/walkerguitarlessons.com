@@ -19,9 +19,9 @@
 // });
 
 // Closes the Responsive Menu on Menu Item Click.  Currently diabled via hiding the fav bars icon on mobile...
-// $('.navbar-collapse ul li a').click(function() {
-//     $('.navbar-toggle:visible').click();
-// });
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
 
 $('.top-block-trigger').click(function() {
 	$('.top-block-toggle').fadeToggle(500);
@@ -31,17 +31,17 @@ $('.bottom-block-trigger').click(function() {
 });
 
 // Hides the menu after page scroll down
-$(window).scroll(function() {
+// $(window).scroll(function() {
 
-    if ($(this).scrollTop()>0)
-     {
-        $('.navbar').fadeOut();
-     }
-    else
-     {
-      $('.navbar').fadeIn();
-     }
- });
+//     if ($(this).scrollTop()>0)
+//      {
+//         $('.navbar').fadeOut();
+//      }
+//     else
+//      {
+//       $('.navbar').fadeIn();
+//      }
+//  });
 
 
 // Google Maps Scripts

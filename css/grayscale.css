@@ -277,6 +277,10 @@ a:focus {
 
 
 /* ======== About ======== */
+.about-section {
+	padding-top: 15px;
+}
+
 .about-section span {
 	font-weight: bold;
 }

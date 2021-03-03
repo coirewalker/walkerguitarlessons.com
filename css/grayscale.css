@@ -64,7 +64,7 @@ a:focus {
 }
 
 .hero {
-	padding-top: 34vh;
+	padding-top: 33vh;
 }
 
 
@@ -171,7 +171,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-
 /*  linear-gradient(rgba(237, 242, 172, 0.25), 
 	    rgba(1, 255, 203, 0.2)) */
 
@@ -190,6 +189,46 @@ a:focus {
     font-size: 18px;
     text-shadow: 2px 1px 1px rgba(0,0,0,.7);
 }
+
+
+/* Tabs page */
+.tabs-bg {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+	background: url(/img/tabs-bg-desktop.jpg) no-repeat;
+	height: 100vh;
+	background-position: left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*  linear-gradient(rgba(237, 242, 172, 0.25), 
+	    rgba(1, 255, 203, 0.2)) */
+
+.tabs-bg .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tabs-bg .intro-body .brand-heading {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,1);
+    padding-bottom: 20px;
+}
+
+.tabs-bg .intro-body .intro-text {
+    font-size: 18px;
+    text-shadow: 2px 1px 1px rgba(0,0,0,.7);
+}
+
+
+
 
 .btn-circle {
     width: 70px;
@@ -277,8 +316,8 @@ a:focus {
 
 
 /* ======== About ======== */
-.about-section {
-	padding-top: 15px;
+.about-section, .tabs-section {
+	padding-top: 25px;
 }
 
 .about-section span {
@@ -307,8 +346,7 @@ a:focus {
 }
 
 .contact-section {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 25px 15px 0px 15px;
 }
 
 .contact-section span {
@@ -357,7 +395,7 @@ a:focus {
 
 /* ======== Press ========*/
 .press-section {
-	padding: 50px 0;
+	padding: 70px 0 50px 0;
 	color: #5a4848;
     width: 100%;
     background-color: #fff;
@@ -568,6 +606,25 @@ ul.banner-social-buttons a:hover {
 
 
 
+/* ====== TABS ====== */
+/* some tab styling is above for bg behavior, etc */
+.tabs-list {
+	margin-top: 50px;
+}
+.tabs-list ul {
+	list-style-type: none;
+}
+.tabs-list ul a span {
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	color: #000;
+}
+
+.tab-section {
+	margin-bottom: 50px;
+}
+
 /* ====== MISC ====== */
 ::-moz-selection {
     text-shadow: none;
@@ -613,6 +670,18 @@ body {
 	}
 }
 
+@media only screen and (max-width: 500px) {
+	.mobile-tabs-background {
+	    background: url(/img/tabs-bg-mobile.jpg) no-repeat;
+	    height: 100vh;
+	    background-position: center top;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+}
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
@@ -631,6 +700,18 @@ body {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
+    .tabs-bg {
+        height: 100%;
+        padding: 0;
+    }
+
+    .tabs-bg .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .tabs-bg .intro-body .intro-text {
+        font-size: 26px;
+    }
 }
 
 @media(max-width:767px) {
@@ -645,7 +726,7 @@ body {
 
 @media(min-width:767px) {
     .press-section {
-        padding: 60px 0;
+        padding: 70px 0;
     }
 
     #map {
@@ -673,8 +754,8 @@ body {
 	border-bottom: 1px solid #898989;
 }
 
-.navbar-brand {
-    padding: 15px 25px;
+a.navbar-brand.page-scroll {
+	padding-right: 0;
 }
 
 .navbar-toggle {
@@ -771,17 +852,8 @@ body {
 	padding-bottom: 20px;
 }
 
-
-
-
-
-
-/** REVIEW PAGE **/
-.review-body {
-	display: table-cell;
-    vertical-align: middle;
+ul.list-inline .donate-icon img {
+	margin-bottom: 12px;
 }
-
-
 
 

@@ -317,14 +317,10 @@ a:focus {
 
 /* ======== About ======== */
 .about-section, .tabs-section {
-	padding-top: 15px;
+	padding-top: 25px;
 }
 
 .about-section span {
-	font-weight: bold;
-}
-
-.tabs-section span {
 	font-weight: bold;
 }
 
@@ -350,8 +346,7 @@ a:focus {
 }
 
 .contact-section {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 25px 15px 0px 15px;
 }
 
 .contact-section span {
@@ -400,7 +395,7 @@ a:focus {
 
 /* ======== Press ========*/
 .press-section {
-	padding: 50px 0;
+	padding: 70px 0 50px 0;
 	color: #5a4848;
     width: 100%;
     background-color: #fff;
@@ -611,6 +606,25 @@ ul.banner-social-buttons a:hover {
 
 
 
+/* ====== TABS ====== */
+/* some tab styling is above for bg behavior, etc */
+.tabs-list {
+	margin-top: 50px;
+}
+.tabs-list ul {
+	list-style-type: none;
+}
+.tabs-list ul a span {
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	color: #000;
+}
+
+.tab-section {
+	margin-bottom: 50px;
+}
+
 /* ====== MISC ====== */
 ::-moz-selection {
     text-shadow: none;
@@ -712,7 +726,7 @@ body {
 
 @media(min-width:767px) {
     .press-section {
-        padding: 60px 0;
+        padding: 70px 0;
     }
 
     #map {

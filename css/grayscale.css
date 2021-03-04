@@ -582,12 +582,8 @@ ul.banner-social-buttons a:hover {
 
 /* ====== TABS ====== */
 /* some tab styling is above for bg behavior, etc */
-.tab-add-pad {
-	padding-top: 50px;
-}
-
 .tabs-list {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .tabs-list ul {
 	list-style-type: none;
@@ -602,6 +598,7 @@ ul.banner-social-buttons a:hover {
 
 .tab-section {
 	margin-bottom: 50px;
+	margin-top: 30px;
 }
 
 .tab-left-align-container {

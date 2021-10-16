@@ -37,7 +37,7 @@ h5 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 16.5px;
     line-height: 1.5;
 }
 
@@ -137,7 +137,7 @@ a:focus {
     .navbar-custom {
         padding: 0;
         border-bottom: 1px #000;
-        letter-spacing: 1px;
+        letter-spacing: .8px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -153,8 +153,6 @@ a:focus {
 
 
 
-
-
 /* ====== Main ====== */
 .intro {
     display: table;
@@ -165,7 +163,7 @@ a:focus {
     color: #fff;
 	background: url(/img/bg-desktop-landscape.jpg) no-repeat;
 	height: 100vh;
-	background-position: top right;
+	background-position: left center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -200,7 +198,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-	background: url(/img/tabs-bg-desktop.jpg) no-repeat;
+	background: url(/img/tabs-bg.jpg) no-repeat;
 	height: 100vh;
 	background-position: left top;
     -webkit-background-size: cover;
@@ -212,22 +210,48 @@ a:focus {
 /*  linear-gradient(rgba(237, 242, 172, 0.25), 
 	    rgba(1, 255, 203, 0.2)) */
 
-.tabs-bg .intro-body {
+.tabs-bg .faq-bg .intro-body {
     display: table-cell;
     vertical-align: middle;
 }
 
-.tabs-bg .intro-body .brand-heading {
+.tabs-bg .faq-bg .intro-body .brand-heading {
     font-size: 40px;
     text-shadow: 1px 1px 2px rgba(0,0,0,1);
     padding-bottom: 20px;
 }
 
-.tabs-bg .intro-body .intro-text {
+.tabs-bg .faq-bg .intro-body .intro-text {
     font-size: 18px;
     text-shadow: 2px 1px 1px rgba(0,0,0,.7);
 }
 
+
+
+
+
+/* FAQ page */
+.faq-bg {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+	background: url(/img/faq-bg-desktop.jpg) no-repeat;
+	height: 100vh;
+	background-position: left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.faq-heading {
+	font-size: 60px;
+	text-shadow: 1px 1px 2px rgb(0 0 0);
+    padding-bottom: 20px;
+}
 
 
 
@@ -364,11 +388,12 @@ a:focus {
 
 
 
+
+
 /* ======== Music ========*/
 .music-section {
 	padding-bottom: 50px;
 }
-
 
 
 
@@ -386,7 +411,6 @@ a:focus {
 .quote-spacer {
 	padding-bottom: 10px;
 }
-
 
 
 
@@ -428,7 +452,7 @@ a:focus {
 .press h5 {
 	text-align: right;
     color: #000;
-    font-size: .65em;
+    font-size: 12px;
 }
 
 .press h5:hover {
@@ -437,9 +461,7 @@ a:focus {
 
 .press h3 span {
 	color: #000;
-	font-size: .9em;
-	font-style: italic;
-	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px;
 	text-transform: none;
 	text-shadow: 1px 1px 0px #fff;
 }
@@ -458,8 +480,6 @@ a:focus {
 .yelp {
     padding-top: 50px;
 }
-
-
 
 
 
@@ -539,6 +559,9 @@ a:focus {
 }
 
 
+
+
+
 /* ====== FOOTER ====== */
 footer {
 	background: #f07015;
@@ -578,6 +601,32 @@ ul.banner-social-buttons a:hover {
 
 
 
+
+
+/* ====== FAQ ====== */
+ #faq {
+	margin-bottom: 15px;
+	}
+
+.faq-section {
+	padding: 10px 15px 0px 15px;
+}
+
+.faq-section span {
+	font-weight: bold;
+}
+
+.faq-section {
+	padding-bottom: 50px;
+}
+
+#faq p {
+	font-size: 17px;
+}
+
+.lesson-policy li {
+	font-size: 17px;
+}
 
 
 /* ====== TABS ====== */
@@ -639,7 +688,7 @@ body {
 
 
 /* ====== Media Queries ====== */
-@media(max-width: 1024px) {
+@media(max-width: 750px) {
     video#bgvid {
         display: none;
     }
@@ -666,10 +715,10 @@ body {
 	}
 }
 
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
         line-height: 1.6;
     }
     .intro {
@@ -684,16 +733,16 @@ body {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
-    .tabs-bg {
+    .tabs-bg .faq-bg{
         height: 100%;
         padding: 0;
     }
 
-    .tabs-bg .intro-body .brand-heading {
+    .tabs-bg .faq-bg .intro-body .brand-heading {
         font-size: 100px;
     }
 
-    .tabs-bg .intro-body .intro-text {
+    .tabs-bg .faq-bg .intro-body .intro-text {
         font-size: 26px;
     }
 }
@@ -765,7 +814,11 @@ a.navbar-brand.page-scroll {
     }
 }
 
-
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 10px;
+}
 
 
 

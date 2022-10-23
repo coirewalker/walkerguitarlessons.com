@@ -1,1 +1,1 @@
-My personal teaching site.  
+My name is Corie Walker and I am a professional guitarist and teacher. Thank you for visiting my personal teaching site.  

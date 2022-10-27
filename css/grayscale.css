@@ -444,7 +444,7 @@ a:focus {
 
 .press h3 {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	text-align: right;
+	text-align: center;
 	color: #fff;
 	text-transform: none;
 }
@@ -452,13 +452,13 @@ a:focus {
 .press h2 {
 	color: #000;
 	text-shadow: 1px 1px 1px #fff;
-
+    padding-bottom: 40px;
 }
 
 .press h5 {
-	text-align: right;
+	text-align: center;
     color: #000;
-    font-size: 14px;
+    font-size: 12px;
     text-shadow: 1px 0px 0px #fff;
 }
 

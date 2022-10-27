@@ -419,7 +419,6 @@ a:focus {
     background-color: #fff;
     background: url(/img/press-bg.jpg) no-repeat center center scroll;
     background-color: #000;
-    opacity: .9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

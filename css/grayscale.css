@@ -566,6 +566,38 @@ a:focus {
 
 
 
+/* ====== BADGES SECTION ===== */
+
+#badges {
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+
+.footer-google-badge img {
+    width: 145px;
+    float: right;
+    margin-right: 25px;
+}
+
+.footer-expertise-badge img {
+    width: 100px;
+    float: right;
+    margin-right: 25px;
+}
+
+.footer-yelp-badge img {
+    width: 110px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 14px;
+}
+
+.footer-thumbtack-badge img {
+    width: 75px;
+    float: right;
+    margin-right: 25px;
+}
+
 
 
 /* ====== FOOTER ====== */
@@ -909,8 +941,10 @@ ul.list-inline .donate-icon img {
 
 
 
-
-
+/* = Fix for badge section float issue =*/
+.col-lg-12 {
+    float: none;
+}
 
 
 

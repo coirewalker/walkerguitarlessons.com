@@ -457,9 +457,9 @@ a:focus {
 
 .press h5 {
 	text-align: center;
-    color: #000;
-    font-size: 12px;
-    text-shadow: 1px 0px 0px #fff;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 1px 1px 0px #000;
 }
 
 .press h5:hover {
@@ -467,10 +467,10 @@ a:focus {
 }
 
 .press h3 span {
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 	text-transform: none;
-	text-shadow: 1px 1px 0px #fff;
+	text-shadow: 1px 1px 0px #000;
 }
 
 .press h5 {

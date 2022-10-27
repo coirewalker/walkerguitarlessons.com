@@ -339,9 +339,6 @@ a:focus {
 
 
 /* ======== About ======== */
-.about-section, .tabs-section {
-	padding-top: 25px;
-}
 
 .about-section span {
 	font-weight: bold;
@@ -365,11 +362,7 @@ a:focus {
 /* ======= CONTACT ======= */
 .content-section {
     background-color: #fff;
-    padding-top: 50px;
-}
-
-.contact-section {
-	padding: 25px 15px 0px 15px;
+    padding-top: 70px;
 }
 
 .contact-section span {

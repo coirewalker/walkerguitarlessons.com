@@ -458,7 +458,8 @@ a:focus {
 .press h5 {
 	text-align: right;
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
+    text-shadow: 1px 0px 0px #fff;
 }
 
 .press h5:hover {
@@ -565,6 +566,41 @@ a:focus {
 }
 
 
+
+/* ====== BADGES SECTION ===== */
+
+#badges {
+    padding-top: 40px;
+}
+
+.footer-google-badge img {
+    width: 145px;
+    float: right;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.footer-expertise-badge img {
+    width: 100px;
+    float: right;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.footer-yelp-badge img {
+    width: 110px;
+    float: right;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 14px;
+}
+
+.footer-thumbtack-badge img {
+    width: 75px;
+    float: right;
+    margin-right: 12px;
+    margin-left: 12px;
+}
 
 
 
@@ -906,9 +942,6 @@ ul.list-inline .donate-icon img {
     height: 40px;
     width: 40px;
 }
-
-
-
 
 
 

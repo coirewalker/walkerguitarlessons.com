@@ -444,7 +444,7 @@ a:focus {
 
 .press h3 {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	text-align: right;
+	text-align: center;
 	color: #fff;
 	text-transform: none;
 }
@@ -452,14 +452,14 @@ a:focus {
 .press h2 {
 	color: #000;
 	text-shadow: 1px 1px 1px #fff;
-
+    padding-bottom: 40px;
 }
 
 .press h5 {
-	text-align: right;
-    color: #000;
-    font-size: 14px;
-    text-shadow: 1px 0px 0px #fff;
+	text-align: center;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 1px 1px 0px #000;
 }
 
 .press h5:hover {
@@ -467,10 +467,10 @@ a:focus {
 }
 
 .press h3 span {
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 	text-transform: none;
-	text-shadow: 1px 1px 0px #fff;
+	text-shadow: 1px 1px 0px #000;
 }
 
 .press h5 {

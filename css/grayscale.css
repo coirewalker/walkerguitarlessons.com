@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 
+h1 {
+    text-shadow: 2px 2px 1px;
+}
+
 .brand-heading {
 	padding-bottom: 100px;
 }

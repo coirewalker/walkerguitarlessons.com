@@ -41,7 +41,7 @@ h5 {
 
 p {
     margin: 0 0 25px;
-    font-size: 16.5px;
+    font-size: 17.5px;
     line-height: 1.5;
 }
 
@@ -408,6 +408,7 @@ a:focus {
     font-size: 14px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 25px;
 }
 
 .quote-spacer {

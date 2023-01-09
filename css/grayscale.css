@@ -379,10 +379,11 @@ a:focus {
 .phone {
 	padding-bottom: 20px;
 	padding-top: 5px;
+    font-size: 18px;
 }
 
 .email-link {
-	font-size: 20px;
+	font-size: 18px;
 	color: #000;
 }
 
@@ -405,15 +406,13 @@ a:focus {
 .quote {
 	font-style: italic;
     text-align: center;
-    font-size: 14px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 25px;
+    font-size: 16px;
+    padding: 30px;
 }
 
-.quote-spacer {
+/*.quote-spacer {
 	padding-bottom: 10px;
-}
+}*/
 
 
 

@@ -41,7 +41,7 @@ h5 {
 
 p {
     margin: 0 0 25px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     text-align: left;
 }
@@ -728,6 +728,13 @@ body {
 
 
 /* ====== Media Queries ====== */
+
+@media(max-width: 897px) {
+    p {
+        font-size: 16px;
+    }
+}
+
 @media(max-width: 750px) {
     video#bgvid {
         display: none;

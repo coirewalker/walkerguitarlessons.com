@@ -41,7 +41,7 @@ h5 {
 
 p {
     margin: 0 0 25px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     text-align: left;
 }
@@ -192,7 +192,7 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
     text-align: center;
-    text-shadow: 2px 1px 1px rgba(0,0,0,.7);
+    text-shadow: 2px 1px 0px rgb(0 0 0);
 }
 
 
@@ -728,6 +728,13 @@ body {
 
 
 /* ====== Media Queries ====== */
+
+@media(max-width: 897px) {
+    p {
+        font-size: 16px;
+    }
+}
+
 @media(max-width: 750px) {
     video#bgvid {
         display: none;

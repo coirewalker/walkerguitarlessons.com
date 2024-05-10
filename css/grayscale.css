@@ -192,7 +192,7 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
     text-align: center;
-    text-shadow: 2px 1px 1px rgba(0,0,0,.7);
+    text-shadow: 2px 1px 0px rgb(0 0 0);
 }
 
 

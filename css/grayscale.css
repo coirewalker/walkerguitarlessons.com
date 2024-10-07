@@ -405,6 +405,7 @@ a:focus {
 /* ======= Testimonials ======= */
 .quote {
 	text-align: center;
+    font-style: italic;
     font-size: 16px;
     padding: 15px;
     font-family: 'Montserrat';
@@ -606,7 +607,7 @@ a:focus {
 
 /* ====== FOOTER ====== */
 footer {
-	background: #f07015;
+	background: #ffffff;
 	padding-top: 50px;
 	padding-bottom: 25px;
 }
@@ -632,7 +633,7 @@ ul.banner-social-buttons a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+	color: #4d4d4d;
 }
 ul.banner-social-buttons a:hover {
 	color: #fff;

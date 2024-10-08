@@ -168,7 +168,7 @@ a:focus {
     color: #fff;
 	background: url(/img/bg-desktop-landscape.jpg) no-repeat;
 	height: 100vh;
-	background-position: left center;
+	background-position: left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -353,10 +353,6 @@ a:focus {
 	font-weight: bold;
 }
 
-#zoom {
-	padding-bottom: 20px;
-}
-
 .center {
 	display: block;
     margin-left: auto;
@@ -380,7 +376,7 @@ a:focus {
 
 .phone {
 	padding-top: 5px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .email-link {
@@ -406,7 +402,7 @@ a:focus {
 .quote {
 	text-align: center;
     font-style: italic;
-    font-size: 16px;
+    font-size: 17px;
     padding: 15px;
     font-family: 'Montserrat';
     padding-top: 35px;
@@ -489,7 +485,9 @@ a:focus {
     padding-top: 50px;
 }
 
-
+.extra-padding {
+    padding-bottom: 25px;
+}
 
 
 /* ======== Button ======== */
@@ -607,9 +605,10 @@ a:focus {
 
 /* ====== FOOTER ====== */
 footer {
-	background: #ffffff;
+	background: #fb6c18;
 	padding-top: 50px;
 	padding-bottom: 25px;
+    border-top: solid 1px #000;
 }
 
 footer p {
@@ -633,7 +632,7 @@ ul.banner-social-buttons a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #4d4d4d;
+	color: #ffffff;
 }
 ul.banner-social-buttons a:hover {
 	color: #fff;
@@ -641,7 +640,7 @@ ul.banner-social-buttons a:hover {
 }
 
 .copyright p {
-    font-size: .5em;
+    font-size: 11px;
     margin-bottom: 20px;
     text-align: center;
 }

@@ -191,7 +191,7 @@ a:focus {
 }
 
 .brand-heading {
-    font-size: 55px;
+    font-size: 65px;
 }
 
 /* Tabs page */
@@ -417,11 +417,9 @@ a:focus {
 /* ======== Press ========*/
 .press-section {
 	padding: 70px 0 50px 0;
-	color: #5a4848;
     width: 100%;
     background-color: #fff;
     background: url(/img/press-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -603,7 +601,7 @@ a:focus {
 
 /* ====== FOOTER ====== */
 footer {
-	background: #555352;
+	background: #393838;
 	padding-top: 50px;
 	padding-bottom: 25px;
     border-top: solid 1px #000;
@@ -726,23 +724,6 @@ body {
 
 /* ====== Media Queries ====== */
 
-@media(max-width: 750px) {
-    video#bgvid {
-        display: none;
-    }
-    .mobile-background {
-	    background: url(/img/bg-mobile-portrait.jpg) no-repeat;
-	    height: 100vh;
-	    background-position: center top;
-	    -webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    background-size: cover;
-	    -o-background-size: cover;
-	}
-/*    .hero {
-    padding-top: 10vh;
-    }*/
-}
 
 @media only screen and (max-width: 500px) {
 	.mobile-tabs-background {

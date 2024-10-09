@@ -67,7 +67,7 @@ a:focus {
 }
 
 .hero {
-	padding-top: 50vh;
+	padding-top: 100vh;
 }
 
 
@@ -484,7 +484,7 @@ a:focus {
 }
 
 .extra-padding {
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 
@@ -739,9 +739,9 @@ body {
 	    background-size: cover;
 	    -o-background-size: cover;
 	}
-    .hero {
+/*    .hero {
     padding-top: 10vh;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 500px) {

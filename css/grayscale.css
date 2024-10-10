@@ -752,6 +752,11 @@ body {
 	}
 }
 
+@media only screen and (max-width: 450px) {
+    .faq-bg {
+        background: url(/img/faq-bg-mobile.jpg) no-repeat;
+    }
+}
 
 @media(min-width:768px) {
     p {

@@ -187,7 +187,7 @@ a:focus {
 .intro .intro-body .intro-text {
     text-align: center;
     padding-bottom: 20px;
-    text-shadow: 2px 1px 0px rgb(0 0 0);
+    text-shadow: 1px 1px 5px rgb(0 0 0);
 }
 
 .brand-heading {
@@ -342,11 +342,10 @@ a:focus {
 
 
 
-/* ======== About ======== */
-.about-section {
-    padding-bottom: 25px;
-}
 
+
+
+/* ======== About ======== */
 .about-section span {
 	font-weight: bold;
 }
@@ -362,10 +361,23 @@ a:focus {
 
 
 
+
+
+/* ======= BOOKING / RATES ======= */
+
+.booking-section span {
+    font-weight: bold;
+}
+
+
+
+
+
+
 /* ======= CONTACT ======= */
 .content-section {
     background-color: #fff;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .contact-section span {
@@ -401,7 +413,6 @@ a:focus {
 	text-align: center;
     font-style: italic;
     font-size: 17px;
-    padding: 15px;
     font-family: 'Montserrat';
     padding-top: 35px;
 }
@@ -616,6 +627,10 @@ footer span {
     font-weight: bold;
 }
 
+.footer-fix {
+    margin-bottom: 50px;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -636,7 +651,7 @@ ul.banner-social-buttons a:hover {
 }
 
 .copyright p {
-    font-size: 11px;
+    font-size: 10px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -740,7 +755,7 @@ body {
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
+       /* margin: 0 0 35px;*/
         line-height: 1.6;
     }
     .intro {
@@ -753,7 +768,7 @@ body {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 20px;
+        font-size: 23px;
     }
     .tabs-bg .faq-bg{
         height: 100%;
@@ -828,9 +843,6 @@ a.navbar-brand.page-scroll {
     .col-lg-offset-2 {
     margin-left: 16.66666667%;
     }
-    #contact {
-	margin-bottom: 15px;
-	}
 	.col-lg-8 {
         width: 66.66666667%;
     }

@@ -741,6 +741,18 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+    .mobile-background {
+        background: url(/img/bg-mobile-verticle.jpg) no-repeat;
+        height: 100vh;
+        background-position: left top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 500px) {
 	.mobile-tabs-background {
 	    background: url(/img/tabs-bg-mobile.jpg) no-repeat;
 	    height: 100vh;

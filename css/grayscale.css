@@ -399,7 +399,7 @@ a:focus {
 .contact-desktop-background {
     display: block;
     height: 75vh;
-    background-position: center top;
+    background-position: left center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

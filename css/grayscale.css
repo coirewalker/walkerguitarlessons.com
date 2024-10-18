@@ -7,6 +7,7 @@ html, body
 }
 
 body {
+    position: relative;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #fff;
 }
@@ -69,7 +70,6 @@ a:focus {
 .hero {
 	padding-top: 100vh;
 }
-
 
 /* ========== Nav ========= */
 .navbar-custom {
@@ -153,8 +153,6 @@ a:focus {
     }*/
 }
 
-
-
 /* ====== Main ====== */
 .intro {
     display: table;
@@ -172,9 +170,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-/*  linear-gradient(rgba(237, 242, 172, 0.25), 
-	    rgba(1, 255, 203, 0.2)) */
-
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -186,13 +181,21 @@ a:focus {
 
 .intro .intro-body .intro-text {
     text-align: center;
-    padding-bottom: 20px;
     text-shadow: 1px 1px 5px rgb(0 0 0);
 }
 
 .brand-heading {
-    font-size: 65px;
+    font-size: 60px;
 }
+
+.brand-heading-align {
+     margin-bottom: 12vh;
+}
+
+.music-section, .lessons-section, .press-section, .contact-section, {
+    padding-bottom: 100px;
+}
+
 
 /* Tabs page */
 .tabs-bg {
@@ -211,9 +214,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-/*  linear-gradient(rgba(237, 242, 172, 0.25), 
-	    rgba(1, 255, 203, 0.2)) */
-
 .tabs-bg .faq-bg .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -229,10 +229,6 @@ a:focus {
     font-size: 18px;
     text-shadow: 2px 1px 1px rgba(0,0,0,.7);
 }
-
-
-
-
 
 /* FAQ page */
 .faq-bg {
@@ -256,8 +252,6 @@ a:focus {
 	text-shadow: 1px 1px 2px rgb(0 0 0);
     padding-bottom: 20px;
 }
-
-
 
 .btn-circle {
     width: 70px;
@@ -358,6 +352,15 @@ a:focus {
     margin-top: -10px;
 }
 
+.lessons-desktop-bg {
+        background: url(/img/lessons-bg-desktop.jpg) no-repeat;
+        height: 100vh;
+        background-position: left top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
 
 
 
@@ -374,7 +377,20 @@ a:focus {
 
 
 
+
+
+
 /* ======= CONTACT ======= */
+.contact-desktop-background {
+    background: url(/img/contact-bg-desktop.jpg) no-repeat;
+    height: 100vh;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .content-section {
     background-color: #fff;
     padding-top: 70px;
@@ -389,24 +405,33 @@ a:focus {
     font-size: 20px;
 }
 
-.email-link {
-	font-size: 21px;
-}
+
+
 
 
 
 
 
 /* ======== Music ========*/
-.music-section {
-	padding-bottom: 50px;
+.music-bg {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/music-bg-desktop.jpg) no-repeat;
+    height: 100vh;
+    background-position: left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
+
 .music-section span {
     font-weight: bold;
 }
-
-
-
 
 /* ======= Testimonials ======= */
 .quote {
@@ -417,9 +442,8 @@ a:focus {
     padding-top: 35px;
 }
 
-/*.quote-spacer {
-	padding-bottom: 10px;
-}*/
+
+
 
 
 
@@ -427,10 +451,10 @@ a:focus {
 
 /* ======== Press ========*/
 .press-section {
-	padding: 70px 0 50px 0;
+	padding: 100px 0 50px 0;
     width: 100%;
     background-color: #fff;
-    background: url(/img/press-bg.jpg) no-repeat center center scroll;
+    background: url(/img/press-bg.jpg) no-repeat left center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -451,6 +475,7 @@ a:focus {
 	text-align: center;
 	color: #fff;
 	text-transform: none;
+    font-size: 23px;
 }
 
 .press h2 {
@@ -462,8 +487,8 @@ a:focus {
 .press h5 {
 	text-align: center;
     color: #fff;
-    font-size: 13px;
-    text-shadow: 1px 1px 0px #000;
+    font-size: 10px;
+    text-shadow: 1px 2px 0px #000;
 }
 
 .press h5:hover {
@@ -472,9 +497,9 @@ a:focus {
 
 .press h3 span {
 	color: #fff;
-	font-size: 20px;
+	font-size: 23px;
 	text-transform: none;
-	text-shadow: 1px 1px 0px #000;
+	text-shadow: 1px 2px 0px #000;
 }
 
 .press h5 {
@@ -493,9 +518,8 @@ a:focus {
 }
 
 .extra-padding {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
-
 
 /* ======== Button ======== */
 .btn {
@@ -546,14 +570,9 @@ a:focus {
 }
 
 .social-icon {
-	padding: 0 5px;
+	padding: 0px 3px;
 }
 
-
-
-
-
-/* ====== PRESS ====== */
 .yelp, .thumbtack {
 	float: right;
 }
@@ -570,8 +589,6 @@ a:focus {
 	width: 120px;
 	margin-right: 10px;
 }
-
-
 
 /* ====== BADGES SECTION ===== */
 
@@ -610,12 +627,21 @@ a:focus {
 
 
 
+
+
+
+
+
 /* ====== FOOTER ====== */
 footer {
-	background: #393838;
-	padding-top: 50px;
-	padding-bottom: 25px;
+    position: absolute;
+    background: #3c3a3a;
+    padding-top: 50px;
+    padding-bottom: 25px;
     border-top: solid 1px #000;
+    bottom: -100px;
+    height: 230px;
+    width: 100%;
 }
 
 footer p {
@@ -651,10 +677,26 @@ ul.banner-social-buttons a:hover {
 }
 
 .copyright p {
-    font-size: 10px;
+    font-size: 8px;
     margin-bottom: 20px;
     text-align: center;
 }
+
+.contact-links {
+    padding: 15px 0px;
+    line-height: 30px;
+}
+
+.contact-links a {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+
+
+
 
 
 
@@ -677,6 +719,14 @@ ul.banner-social-buttons a:hover {
 	font-size: 17px;
     text-align: left;
 }
+
+
+
+
+
+
+
+
 
 
 /* ====== TABS ====== */
@@ -703,10 +753,6 @@ ul.banner-social-buttons a:hover {
 .tab-left-align-container {
 	text-align: left;
 }
-
-
-
-
 
 /* ====== MISC ====== */
 ::-moz-selection {
@@ -737,12 +783,46 @@ body {
 
 
 
-/* ====== Media Queries ====== */
 
+
+
+
+
+
+
+
+/* ====== Media Queries ====== */
 
 @media only screen and (max-width: 500px) {
     .mobile-background {
         background: url(/img/bg-mobile-verticle.jpg) no-repeat;
+        height: 100vh;
+        background-position: left top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .lessons-mobile-bg {
+        background: url(/img/lessons-bg-mobile.jpg) no-repeat;
+        height: 100vh;
+        background-position: left top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .music-mobile-background {
+        background: url(/img/music-bg-mobile.jpg) no-repeat;
+        height: 100vh;
+        background-position: left top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .contact-mobile-background {
+        background: url(/img/contact-bg-mobile.jpg) no-repeat;
         height: 100vh;
         background-position: left top;
         -webkit-background-size: cover;
@@ -756,7 +836,7 @@ body {
 	.mobile-tabs-background {
 	    background: url(/img/tabs-bg-mobile.jpg) no-repeat;
 	    height: 100vh;
-	    background-position: center top;
+	    background-position: left top;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    background-size: cover;
@@ -778,10 +858,6 @@ body {
     .intro {
         height: 100%;
         padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 80px;
     }
 
     .intro .intro-body .intro-text {
@@ -836,6 +912,13 @@ body {
 
 
 
+
+
+
+
+
+
+
 /* ===== Bootstrap Overrides ====== */ 
 .navbar {
 	border-bottom: 1px solid #898989;
@@ -872,10 +955,8 @@ a.navbar-brand.page-scroll {
 }
 
 
-
-
 /** Gallery bg fix **/
-.blueimp-gallery>.slides>.slide {
+/*.blueimp-gallery>.slides>.slide {
 	background: #fff;
 }
 
@@ -887,8 +968,7 @@ a.navbar-brand.page-scroll {
 	padding-bottom: 20px;
 }
 
-
-
+*/
 
 /* HR Styling */
 .divider-1 {
@@ -954,6 +1034,14 @@ ul.list-inline .donate-icon img {
 
 
 
+
+
+
+
+
+
+
+
 /** Do REMOTE LESSONS WORK PAGE **/
 
 .remote-h4 {
@@ -962,7 +1050,16 @@ ul.list-inline .donate-icon img {
 }
 
 
-/** FORM CODE **/
+
+
+
+
+
+
+
+
+
+/** ======= FORMSPREE CODE =======**/
 /* reset */
 #fs-frm input,
 #fs-frm select,
@@ -1072,14 +1169,7 @@ ul.list-inline .donate-icon img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.padding-top-75 {
+    padding-top: 75px;
+}
 

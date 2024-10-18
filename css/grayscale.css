@@ -240,7 +240,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-	background: url(/img/faq-bg-desktop.jpg) no-repeat;
+	background: url(/img/bg-desktop-landscape.jpg) no-repeat;
 	height: 75vh;
 	background-position: left top;
     -webkit-background-size: cover;
@@ -522,7 +522,7 @@ a:focus {
 }
 
 .extra-padding {
-    padding-bottom: 100px;
+    padding-bottom: 65px;
     margin-bottom: 35px;
 }
 
@@ -863,7 +863,7 @@ body {
 
 @media only screen and (max-width: 450px) {
     .faq-bg {
-        background: url(/img/faq-bg-mobile.jpg) no-repeat;
+        background: url(/img/bg-desktop-landscape-full.jpg) no-repeat;
     }
 }
 

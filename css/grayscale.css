@@ -164,7 +164,7 @@ a:focus {
     color: #fff;
 	background: url(/img/bg-desktop-landscape-full.jpg) no-repeat;
 	height: 75vh;
-	background-position: left top;
+	background-position: left center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -343,7 +343,8 @@ a:focus {
 
 
 
-/* ======== About ======== */
+/* ======== LESSONS ======== */
+
 .about-section span {
 	font-weight: bold;
 }
@@ -366,7 +367,17 @@ a:focus {
         -o-background-size: cover;
     }
 
-
+@media only screen and (min-width: 1200px) {
+    .lessons-desktop-bg {
+        background: url(/img/lessons-bg-desktop-wide.jpg) no-repeat;
+        height: 75vh;
+        background-position: left center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
 
 
 
@@ -388,11 +399,18 @@ a:focus {
 .contact-desktop-background {
     display: block;
     height: 75vh;
-    background-position: center top;
+    background-position: left center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .contact-desktop-background {
+        background-position: left center;
+    }
 }
 
 .content-section {
@@ -427,7 +445,7 @@ a:focus {
     color: #fff;
     background: url(/img/music-bg-desktop.jpg) no-repeat;
     height: 75vh;
-    background-position: left top;
+    background-position: left center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -861,11 +879,20 @@ body {
 	}
 }
 
+
 @media only screen and (max-width: 450px) {
     .faq-bg {
         background: url(/img/contact-bg-mobile.jpg) no-repeat;
     }
 }
+
+
+
+
+
+
+
+
 
 @media(min-width:768px) {
     p {

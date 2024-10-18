@@ -164,7 +164,7 @@ a:focus {
     color: #fff;
 	background: url(/img/bg-desktop-landscape-full.jpg) no-repeat;
 	height: 75vh;
-	background-position: left center;
+	background-position: left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -359,7 +359,7 @@ a:focus {
 .lessons-desktop-bg {
         background: url(/img/lessons-bg-desktop.jpg) no-repeat;
         height: 75vh;
-        background-position: left center;
+        background-position: left top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -427,7 +427,7 @@ a:focus {
     color: #fff;
     background: url(/img/music-bg-desktop.jpg) no-repeat;
     height: 75vh;
-    background-position: left center;
+    background-position: left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -841,7 +841,7 @@ body {
     }
     .contact-mobile-background {
         height: 70vh;
-        background-position: left center;
+        background-position: left top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;

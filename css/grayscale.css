@@ -814,7 +814,7 @@ body {
     }
     .mobile-background {
         background: url(/img/bg-mobile-verticle.jpg) no-repeat;
-        height: 75vh;
+        height: 70vh;
         background-position: left center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -823,7 +823,7 @@ body {
     }
     .lessons-mobile-bg {
         background: url(/img/lessons-bg-mobile.jpg) no-repeat;
-        height: 75vh;
+        height: 70vh;
         background-position: left center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -832,7 +832,7 @@ body {
     }
     .music-mobile-background {
         background: url(/img/music-bg-mobile.jpg) no-repeat;
-        height: 75vh;
+        height: 70vh;
         background-position: left center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -840,7 +840,7 @@ body {
         -o-background-size: cover;
     }
     .contact-mobile-background {
-        height: 75vh;
+        height: 70vh;
         background-position: left center;
         -webkit-background-size: cover;
         -moz-background-size: cover;

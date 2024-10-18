@@ -387,7 +387,6 @@ a:focus {
 /* ======= CONTACT ======= */
 .contact-desktop-background {
     display: block;
-    background: url(/img/contact-bg-desktop.jpg) no-repeat;
     height: 75vh;
     background-position: center top;
     -webkit-background-size: cover;
@@ -841,7 +840,6 @@ body {
         -o-background-size: cover;
     }
     .contact-mobile-background {
-        background: url(/img/contact-bg-mobile.jpg) no-repeat;
         height: 75vh;
         background-position: left center;
         -webkit-background-size: cover;

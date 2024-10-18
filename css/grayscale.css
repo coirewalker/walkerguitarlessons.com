@@ -200,14 +200,16 @@ a:focus {
 
 /* Tabs page */
 .tabs-bg {
-    display: table;
+   /* display: table;*/
+   display: block;
     width: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
     color: #fff;
 	background: url(/img/tabs-bg.jpg) no-repeat;
-	height: 100vh;
+	/*height: 100vh;*/
+    height: 75vh;
 	background-position: left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -240,7 +242,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-	background: url(/img/bg-desktop-landscape.jpg) no-repeat;
+	background: url(/img/contact-bg-desktop.jpg) no-repeat;
 	height: 75vh;
 	background-position: left top;
     -webkit-background-size: cover;
@@ -863,7 +865,7 @@ body {
 
 @media only screen and (max-width: 450px) {
     .faq-bg {
-        background: url(/img/bg-desktop-landscape-full.jpg) no-repeat;
+        background: url(/img/contact-bg-mobile.jpg) no-repeat;
     }
 }
 

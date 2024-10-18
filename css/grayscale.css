@@ -652,7 +652,7 @@ a:focus {
 
 footer {
     background: #393838;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 25px;
     border-top: solid 1px #000;
 }
@@ -697,7 +697,7 @@ ul.banner-social-buttons a:hover {
 
 .contact-links {
     padding: 20px 0px;
-    line-height: 30px;
+    line-height: 26px;
 }
 
 .contact-links a {

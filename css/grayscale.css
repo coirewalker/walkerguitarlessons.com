@@ -682,12 +682,12 @@ ul.banner-social-buttons a:hover {
     text-align: center;
 }
 
-.contact-links {
+footer.contact-links {
     padding: 15px 0px;
     line-height: 30px;
 }
 
-.contact-links a {
+footer.contact-links a {
     font-size: 16px;
     font-weight: 700;
     font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;

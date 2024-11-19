@@ -164,7 +164,7 @@ a:focus {
     color: #fff;
 	background: url(/img/bg-desktop-landscape-full.jpg) no-repeat;
 	height: 75vh;
-	background-position: left center;
+	background-position: left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -399,7 +399,7 @@ a:focus {
 .contact-desktop-background {
     display: block;
     height: 75vh;
-    background-position: left center;
+    background-position: left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -409,7 +409,7 @@ a:focus {
 
 @media only screen and (min-width: 1500px) {
     .contact-desktop-background {
-        background-position: left center;
+        background-position: left top;
     }
 }
 

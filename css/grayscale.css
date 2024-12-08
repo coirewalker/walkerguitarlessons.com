@@ -272,11 +272,13 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
 	.btn, .btn-circle {
 		display: none;
 	}
 }
+*/
+
 
 .btn-circle:hover,
 .btn-circle:focus {
@@ -547,10 +549,10 @@ a:focus {
 
 /* ======== Button ======== */
 .btn {
-    border-radius: 0;
+    border-radius: 3;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1222,3 +1224,46 @@ ul.list-inline .donate-icon img {
     text-align: left;
     text-transform: none;
 }
+
+
+/* Bootstrap button styling override */
+.btn-primary {
+    color: #fff;
+    background-color: #ee6e03;
+    border-color: #ffffff;
+
+    }
+
+.btn-primary:hover {
+    color: #ee6e03;
+    background-color: #ffff;
+    border-color: #ee6e03
+}
+
+.btn-primary:active {
+    color: #ee6e03;
+    background-color: #ffff;
+    border-color: #ee6e03;
+    opacity: .5;
+}
+
+
+
+.key-features {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

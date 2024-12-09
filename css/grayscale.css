@@ -546,7 +546,7 @@ a:focus {
 }
 
 .extra-padding {
-    padding-bottom: 65px;
+    padding-bottom: 45px;
     margin-bottom: 35px;
 }
 
@@ -1262,6 +1262,14 @@ ul.list-inline .donate-icon img {
 .dl-horizontal dd {
     text-align: left !important;
     line-height: 2;
+}
+
+.dl-horizontal dt {
+    line-height: 2 !important;
+}
+
+dl {
+    margin-bottom: 40px;
 }
 
 @media (max-width:768px) {

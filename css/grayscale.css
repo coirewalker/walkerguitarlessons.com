@@ -34,6 +34,9 @@ h3 {
 	font-size: 21px;
 }
 
+h4 {
+    margin: 0 0 18px;
+}
 h5 {
 	text-transform: none;
 }
@@ -1255,10 +1258,7 @@ ul.list-inline .donate-icon img {
     text-align: left;
 }
 
-/*.dl-horizontal {
-    font-size: 18px;
-}
-*/
+
 .dl-horizontal dd {
     text-align: left !important;
     line-height: 2;
@@ -1269,6 +1269,7 @@ ul.list-inline .donate-icon img {
         text-align: left !important;
     }   
 }
+
 
 
 

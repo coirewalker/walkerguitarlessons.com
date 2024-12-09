@@ -1255,7 +1255,20 @@ ul.list-inline .donate-icon img {
     text-align: left;
 }
 
+/*.dl-horizontal {
+    font-size: 18px;
+}
+*/
+.dl-horizontal dd {
+    text-align: left !important;
+    line-height: 2;
+}
 
+@media (max-width:768px) {
+     .dl-horizontal dt {
+        text-align: left !important;
+    }   
+}
 
 
 

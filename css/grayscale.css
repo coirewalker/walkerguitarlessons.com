@@ -467,7 +467,7 @@ a:focus {
     font-style: italic;
     font-size: 17px;
     font-family: 'Montserrat';
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 
@@ -547,7 +547,7 @@ a:focus {
 
 .extra-padding {
     padding-bottom: 45px;
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;*/
 }
 
 /* ======== Button ======== */
@@ -1258,7 +1258,7 @@ ul.list-inline .donate-icon img {
     text-align: left;
 }
 
-
+/*
 .dl-horizontal dd {
     text-align: left !important;
     line-height: 2;
@@ -1277,11 +1277,21 @@ dl {
         text-align: left !important;
     }   
 }
+*/
 
+.offerings-list li {
+    text-align: left !important;
+    line-height: 1.7;
+}
 
+.offering-item {
+    font-weight: bold;
+    font-size: 18px;
+}
 
-
-
+.offering-item ul li {
+    font-weight: normal;
+}
 
 
 

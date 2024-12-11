@@ -546,8 +546,8 @@ a:focus {
 }
 
 .extra-padding {
-    padding-bottom: 45px;
-    /*margin-bottom: 35px;*/
+    /*padding-bottom: 45px;*/
+    margin-bottom: 45px;
 }
 
 /* ======== Button ======== */
@@ -970,7 +970,7 @@ body {
 
 /* ===== Bootstrap Overrides ====== */ 
 .navbar {
-	border-bottom: 1px solid #898989;
+	/*border-bottom: 1px solid #898989;*/
 }
 
 a.navbar-brand.page-scroll {
@@ -1279,9 +1279,13 @@ dl {
 }
 */
 
+ul {
+    padding-left: 0;
+}
+
 .offerings-list li {
-    text-align: left !important;
-    line-height: 1.7;
+    list-style: none;
+    line-height: 2;
 }
 
 .offering-item {
@@ -1291,9 +1295,17 @@ dl {
 
 .offering-item ul li {
     font-weight: normal;
+    list-style: none;
 }
 
+.offering-item h4 {
+    margin: 35px 0 5px;
 
+}
+
+.offering-title {
+    text-transform: uppercase;
+}
 
 
 

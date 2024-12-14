@@ -1109,7 +1109,7 @@ ul.list-inline .donate-icon img {
 
 /** ======= FORMSPREE CODE =======**/
 /* reset */
-/*#fs-frm input,
+#fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
 #fs-frm fieldset,
@@ -1136,10 +1136,10 @@ ul.list-inline .donate-icon img {
   padding-top: .2rem;
   display: flex;
   align-items: baseline;
-}*/
+}
 
 /* border, padding, margin, width */
-/*#fs-frm input,
+#fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
 #fs-frm #card-element {
@@ -1196,10 +1196,10 @@ ul.list-inline .donate-icon img {
   -webkit-appearance: radio;
   -moz-appearance: radio;
   appearance: radio;
-}*/
+}
 
 /* address, locale */
-/*#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale input[name="city"],
 #fs-frm fieldset.locale select[name="state"],
 #fs-frm fieldset.locale input[name="postal-code"] {
   display: inline;
@@ -1215,7 +1215,7 @@ ul.list-inline .donate-icon img {
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
-*/
+
 
 
 
@@ -1323,7 +1323,7 @@ ul {
 
 
 /* Google Form CSS */
-.main-container {
+/*.main-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1331,7 +1331,6 @@ ul {
 }
 .form-container {
   margin: 0 auto;
-  /*max-width: 550px;*/
   width: 100%;
   background: white;
   margin-left: -16px;
@@ -1394,7 +1393,6 @@ ul {
 }
 #message {
   width: 100%;
-  /*min-width: 300px;*/
   resize: vertical;
   box-sizing: border-box;
 }
@@ -1404,7 +1402,7 @@ ul {
     max-width: none;
   }
 }
-
+*/
 
 /** End Google Form CSS **/
 
